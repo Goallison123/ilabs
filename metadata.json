@@ -1,0 +1,7 @@
+{
+  "name": "SILVER by Sybella Systems",
+  "description": "A modern, minimalist portal for SILVER, a global initiative providing free 21st-century tech skills and AI education to the underprivileged.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
