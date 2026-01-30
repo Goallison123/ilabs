@@ -8,6 +8,7 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
   const navItems = [
     { label: 'Mission', href: '#mission' },
+    { label: 'Parent Company', href: '#parent' },
     { label: 'Curriculum', href: '#curriculum' },
   ];
 

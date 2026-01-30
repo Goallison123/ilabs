@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar.tsx';
 import Hero from './components/Hero.tsx';
 import Mission from './components/Mission.tsx';
+import SybellaAboutPage from './components/SybellaAboutPage.tsx';
 import Skills from './components/Skills.tsx';
 import Footer from './components/Footer.tsx';
 
@@ -28,6 +29,10 @@ const App: React.FC = () => {
         
         <section id="mission" className="bg-white">
           <Mission />
+        </section>
+
+        <section id="parent" className="scroll-mt-24">
+          <SybellaAboutPage />
         </section>
         
         <section id="curriculum" className="bg-[#fcfcfc]">
